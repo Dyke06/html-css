@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+            margin: 0;
+        }
+
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            width: 100%;
+        }
+
+
+
+        h1{
+            margin-bottom: 10px;
+        }
+
+        nav{
+            background-color: rgb(77, 75, 75);
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgb(14, 11, 11);
+        }
+
+
+
+        #especial{
+            margin-left: 10px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: rgb(226, 226, 226);
+            font-weight: bold;
+            margin-right: 30px;
+            
+        }
+
+        nav a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin-left: 0px;
+            margin-top: 5px;
+            border-radius: 20px;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(74, 77, 76);    
+        }
+
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer p{
+            margin: 0px;
+        }
+
+        #bola{
+            height: 100px;
+            width: 100px;
+            background-color: aliceblue;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Meu site</h1>
+        </div>
+        <nav>
+            <a href="" id="especial">Link</a>
+            <a href="">home</a>
+            <a href="">casa</a>
+            <a href="">logar</a>
+            <a href="">suits</a>
+        </nav>
+
+        
+    </header>
+    <main>
+        <section id="assunto">
+            
+        </section>
+        <section id="Noticia">
+            <article>
+                <h2>Notícia sobre brasil.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error maxime nesciunt corporis, sunt necessitatibus consequuntur laboriosam obcaecati minima eligendi omnis? Deleniti ipsum velit voluptatibus blanditiis, reprehenderit dolor ipsa fugit inventore.</p>
+                <aside>
+                    <p>Artigo escrito por jóse.</p>
+                </aside>
+            </article>
+
+            <article>
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desonvolvido por alguém.</p>
+            
+    </footer>
+
+    <div id="bola"></div>
+    
+    
+</body>
+</html>

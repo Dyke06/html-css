@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    font: 15px arial;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(102, 104, 105);
+}
